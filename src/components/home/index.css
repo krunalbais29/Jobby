@@ -1,0 +1,85 @@
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
+}
+
+
+.hero {
+   background-color: #a1d5e6;
+   padding: 100px 20px;
+   text-align: center;
+}
+
+.hero h1 {
+   font-size: 3.8rem;
+   font-weight: bold;
+}
+
+   .hero p {
+   font-size: 1.6rem;
+   color: #555;
+}
+
+.btn-explore {
+      margin-top: 30px;
+      padding: 12px 25px;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      background-color: #dc3545; 
+      color: white;
+      transition: 0.3s;
+    }
+
+.btn-explore:hover {
+   background-color: white; 
+   color: red;
+   font-weight: bolder;
+}
+ 
+.resume{
+
+   background-color: #e3a0a0;
+    padding: 4px;
+}
+
+.resume-tip {
+   background: #f1f1f1;
+   padding: 20px;
+   border-radius: 10px;
+   transition: 0.3s;
+}
+
+.resume-tip:hover {
+   background: white; 
+   color: black;
+}
+
+   
+.resume-section {
+   background-color: #f9f9f9;
+   padding: 40px;
+}
+   
+.footer {
+   background: #f9f9f9;
+   text-align: center;
+   color: #555;
+}
+
+.company-logos {
+  overflow-x: auto;   
+  white-space: nowrap;
+}
+
+.company-logo {
+  max-height: 40px;
+  object-fit: contain;
+  flex-shrink: 0;    
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.company-logo:hover {
+  transform: scale(1.1);
+}

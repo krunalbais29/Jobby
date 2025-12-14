@@ -1,0 +1,7 @@
+@media (min-width:768px){
+   .scroll{
+      display: block;
+      overflow:scroll ;
+      height: 100vh;
+   }
+}
